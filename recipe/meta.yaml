@@ -1,5 +1,5 @@
 {% set name = "backrefs" %}
-{% set version = "5.0.1" %}
+{% set version = "5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/backrefs-{{ version }}.tar.gz
-  sha256: b66bd67bc715379915c76e70212a9fb71ff17b51a561ce49e717db5e80db2db2
+  sha256: ab72cacd2453a1d1d1e2e34afe8ef1b9ec7f2dea1a74f35e90865f921b0427db
 
 build:
   number: 0
